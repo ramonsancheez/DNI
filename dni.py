@@ -29,8 +29,7 @@ class DNI:
 
     @staticmethod
     def compare_letters(letter, dniCompleted):
-        dniLetter = dniCompleted[-1]
-        if dniLetter == letter:
+        if dniCompleted[-1] == letter:
             return True
         return False
     
